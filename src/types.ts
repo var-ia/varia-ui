@@ -29,11 +29,44 @@ export type EventType =
   | "talk_reply_added"
   | "template_parameter_changed";
 
+export interface FactProvenance {
+  analyzer: string;
+  version: string;
+  inputHashes: string[];
+}
+
+export interface DeterministicFact {
+  fact: string;
+  detail?: string;
+  provenance?: FactProvenance;
+}
+
+export type PolicyDimension =
+  | "verifiability"
+  | "npov"
+  | "blp"
+  | "due_weight"
+  | "protection"
+  | "edit_warring"
+  | "notability"
+  | "copyright"
+  | "civility";
+
+export type DiscussionType =
+  | "notability_challenge"
+  | "sourcing_dispute"
+  | "neutrality_concern"
+  | "content_deletion"
+  | "content_addition"
+  | "naming_dispute"
+  | "procedural"
+  | "other";
+
 export interface ModelInterpretation {
   semanticChange: string;
   confidence: number;
-  policyDimension?: string;
-  discussionType?: string;
+  policyDimension?: PolicyDimension;
+  discussionType?: DiscussionType;
 }
 
 export interface EvidenceEvent {
@@ -45,7 +78,7 @@ export interface EvidenceEvent {
   section: string;
   before: string;
   after: string;
-  deterministicFacts: { fact: string; detail?: string }[];
+  deterministicFacts: DeterministicFact[];
   modelInterpretation?: ModelInterpretation;
   layer: EvidenceLayer;
   timestamp: string;

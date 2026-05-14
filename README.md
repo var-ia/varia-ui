@@ -18,3 +18,7 @@ Open `http://localhost:5173`. Sample data loads automatically. Drag a JSONL file
 - Vite + vanilla TypeScript
 - No framework dependencies
 - DOM-based rendering with CSS custom properties
+
+---
+
+Built and maintained by [NextConsensus](https://nextconsensus.com).
