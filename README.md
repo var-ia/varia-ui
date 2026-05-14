@@ -1,6 +1,6 @@
 # varia-ui
 
-Generic visualization interface for the [Varia](https://github.com/anomalyco/varia) observation engine.
+Generic visualization interface for the [Varia](https://github.com/var-ia/var-ia) observation engine.
 
 Standalone web app built with vanilla TypeScript and Vite. Loads JSONL event data (compatible with `@var-ia/evidence-graph`) and renders timeline, diff, citation, and certainty visualizations.
 
