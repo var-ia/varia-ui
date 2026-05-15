@@ -21,4 +21,4 @@ Open `http://localhost:5173`. Sample data loads automatically. Drag a JSONL file
 
 ---
 
-Built and maintained by [NextConsensus](https://nextconsensus.com).
+[Varia Engine](https://github.com/var-ia/var-ia) · [Docs](https://var-ia.github.io/varia-docs/) · [npm](https://www.npmjs.com/org/var-ia)

@@ -3,6 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "description": "Generic visualization interface for Varia event timelines — load JSONL, render timelines, diffs, citations, certainty scores",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/var-ia/varia-ui.git"
+  },
+  "homepage": "https://github.com/var-ia/varia-ui#readme",
+  "bugs": {
+    "url": "https://github.com/var-ia/varia-ui/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
