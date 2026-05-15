@@ -1,6 +1,6 @@
-# varia-ui — Agent Instructions
+# refract-ui — Agent Instructions
 
-Standalone visualization UI for Varia. Not part of the monorepo — no `@var-ia/*` package imports.
+Standalone visualization UI for Refract. Not part of the monorepo — no `@refract-org/*` package imports.
 
 ## Commands
 
@@ -15,6 +15,6 @@ bun run preview  # vite preview
 - Each component is a class with a `render()` method.
 - Components take a container `HTMLElement` and data, manipulate DOM directly.
 - No framework. No JSX. No virtual DOM.
-- Types mirror `@var-ia/evidence-graph` schemas (defined locally in `src/types.ts`).
+- Types mirror `@refract-org/evidence-graph` schemas (defined locally in `src/types.ts`).
 - CSS custom properties in `main.css` — no CSS framework.
 - Sample data in `public/sample-data.jsonl` — valid `EvidenceEvent` objects.

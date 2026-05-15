@@ -87,7 +87,7 @@ export class TimelineExport {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `varia-timeline.${extension}`;
+    a.download = `refract-timeline.${extension}`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
