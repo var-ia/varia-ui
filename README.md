@@ -1,6 +1,6 @@
 # varia-ui
 
-Standalone visualization for the [Varia](https://github.com/var-ia/var-ia) observation engine.
+Standalone visualization for the [Sequent](https://github.com/var-ia/var-ia) observation engine.
 
 Web app (vanilla TS + Vite) that loads JSONL event data compatible with `@var-ia/evidence-graph` and renders timelines, diffs, citation graphs, and event-type breakdowns.
 
@@ -21,4 +21,4 @@ Open `http://localhost:5173`. Sample data loads automatically. Drag a JSONL file
 
 ---
 
-[Varia Engine](https://github.com/var-ia/var-ia) · [Docs](https://var-ia.github.io/varia-docs/) · [npm](https://www.npmjs.com/org/var-ia)
+[Sequent Engine](https://github.com/var-ia/var-ia) · [Docs](https://var-ia.github.io/varia-docs/) · [npm](https://www.npmjs.com/org/var-ia)
