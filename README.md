@@ -1,6 +1,6 @@
-# varia-ui
+# Refract UI
 
-Standalone visualization for the [Refract](https://github.com/var-ia/var-ia) observation engine.
+Standalone visualization for the [Refract](https://github.com/refract-org/refract) observation engine.
 
 Web app (vanilla TS + Vite) that loads JSONL event data compatible with `@refract-org/evidence-graph` and renders timelines, diffs, citation graphs, and event-type breakdowns.
 
@@ -21,4 +21,4 @@ Open `http://localhost:5173`. Sample data loads automatically. Drag a JSONL file
 
 ---
 
-[Refract Engine](https://github.com/var-ia/var-ia) · [Docs](https://var-ia.github.io/varia-docs/) · [npm](https://www.npmjs.com/org/var-ia)
+[Refract Engine](https://github.com/refract-org/refract) · [Docs](https://refract-org.github.io/refract-docs/) · [npm](https://www.npmjs.com/org/refract-org)
