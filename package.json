@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Generic visualization interface for Varia event timelines — load JSONL, render timelines, diffs, citations, certainty scores",
+  "description": "Standalone visualization UI for Refract — load JSONL, render timelines, diffs, citations",
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/var-ia/varia-ui.git"
+    "url": "git+https://github.com/refract-org/refract-ui.git"
   },
-  "homepage": "https://github.com/var-ia/varia-ui#readme",
+  "homepage": "https://github.com/refract-org/refract-ui#readme",
   "bugs": {
-    "url": "https://github.com/var-ia/varia-ui/issues"
+    "url": "https://github.com/refract-org/refract-ui/issues"
   },
   "scripts": {
     "dev": "vite",
